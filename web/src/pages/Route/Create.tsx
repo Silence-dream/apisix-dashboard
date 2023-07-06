@@ -18,8 +18,6 @@ import { PageHeaderWrapper } from '@ant-design/pro-layout';
 import { useRequest } from 'ahooks';
 import { Card, Form, Modal, Steps } from 'antd';
 import { isEmpty } from 'lodash';
-import React, { useEffect, useRef, useState } from 'react';
-import { history, useIntl } from 'umi';
 
 import ActionBar from '@/components/ActionBar';
 import FlowGraph from '@/components/PluginFlow/components/FlowGraph';

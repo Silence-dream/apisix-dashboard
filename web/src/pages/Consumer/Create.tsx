@@ -24,8 +24,7 @@ import ActionBar from '@/components/ActionBar';
 import PluginPage from '@/components/Plugin';
 
 import Preview from './components/Preview';
-import Step1 from './components/Step1';
-import { create, fetchItem, update } from './service';
+
 
 const Page: React.FC = (props) => {
   const [step, setStep] = useState(1);

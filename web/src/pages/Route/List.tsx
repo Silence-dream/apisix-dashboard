@@ -38,12 +38,7 @@ import { saveAs } from 'file-saver';
 import { js_beautify } from 'js-beautify';
 import yaml from 'js-yaml';
 import { omit } from 'lodash';
-import moment from 'moment';
-import type { ReactNode } from 'react';
-import React, { useEffect, useRef, useState } from 'react';
-import { history, useIntl } from 'umi';
 
-import { RawDataEditor } from '@/components/RawDataEditor';
 import { DELETE_FIELDS } from '@/constants';
 import { timestampToLocaleString } from '@/helpers';
 import usePagination from '@/hooks/usePagination';
